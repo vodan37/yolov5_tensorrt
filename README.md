@@ -70,6 +70,6 @@ Short results:
 | TRT FP32 | 640 | 0.902 | 25 ms** |
 | TRT Int8 | 640 | 0.818 | 17 ms*** |
 
-\* - batch-size 32 \n
-\** - batch-size 1, without preprocess and postprocess 15 ms \n
-\*** - batch-size 1, without preprocess and postprocess 7 ms
+\* - batch-size 32    
+\** - batch-size 1, without preprocess and postprocess 15 ms    
+\*** - batch-size 1, without preprocess and postprocess 7 ms   
