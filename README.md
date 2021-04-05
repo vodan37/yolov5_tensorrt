@@ -5,7 +5,7 @@ Install the [dependencies](https://github.com/wang-xinyu/tensorrtx/blob/master/t
 
 # Getting started
 
-Prepare you model as in the [example](https://github.com/wang-xinyu/tensorrtx/tree/master/yolov5) and put '*.so' and '*.engine' file to 'weights'. Or just download my models:
+Prepare you model as in the [example](https://github.com/wang-xinyu/tensorrtx/tree/master/yolov5) and put '*.so' and '*.engine' file to dir 'weights'. Or just download my models:
 ```
     sh download_weights.sh
 ```
