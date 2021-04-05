@@ -63,8 +63,9 @@ python test_yolov5_trt.py --weights weights/yolov5m_640_helm_fp32/yolov5m_640_he
 # Test results of my model
 Tests were made by [this project](https://github.com/Cartucho/mAP) with GTX1660S. [Detailed results.](https://www.kaggle.com/vodan37/yolo-helmethead)
 Short results:
-| Model | size | mAP All | mAP All | Speed
-|----------------|:---------:|----------------:|----------------:|
+
+| Model | size | mAP All | Speed |
+|----------------|:---------:|:----------------:|----------------:|
 | Vanil YoloV5m | 640 | 0.939 | 59 ms*|
 | TRT FP32 | 640 | 0.902 | 25 ms** |
 | TRT Int8 | 640 | 0.818 | 17 ms*** |
