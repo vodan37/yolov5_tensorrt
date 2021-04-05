@@ -5,12 +5,12 @@ Install the [dependencies](https://github.com/wang-xinyu/tensorrtx/blob/master/t
 
 # Getting started
 
-Prepare you model as in the [example](https://github.com/wang-xinyu/tensorrtx/tree/master/yolov5) and put '*.so' and '*.engine' files to dir 'weights'. Or just download my models:
+Prepare you model as in the [example](https://github.com/wang-xinyu/tensorrtx/tree/master/yolov5) and put '*.so' and '*.engine' files to dir 'weights'. Or just download my [models](https://www.kaggle.com/vodan37/yolo-helmethead):
 ```
     sh download_weights.sh
 ```
 
-Prepare some test images in the 'images' folder. Or download my images:
+Prepare some test images in the 'images' folder. Or download my [images](https://www.kaggle.com/vodan37/yolo-helmethead):
 ```
     sh download_images.sh
 ```
